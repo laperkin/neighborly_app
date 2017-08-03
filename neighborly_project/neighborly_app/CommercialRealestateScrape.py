@@ -31,5 +31,7 @@ def get_listings(city,state):
 			list_matrix.append(row)
 	return list_matrix
 
+
+
             
     
