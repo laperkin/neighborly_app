@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from neighborly_app.views import index, currentresults
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', 'neighborly_app.views.index')
+    url(r'^$', index, name='index'),
+    url(r'^currentresults/', currentresults,name='currentresults')
 ]
