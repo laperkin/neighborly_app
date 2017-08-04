@@ -2,6 +2,8 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from neighborly_app.models import Person
+from django.forms import ModelForm
+
 class PersonForm(forms.ModelForm):
     class Meta:
         model = Person

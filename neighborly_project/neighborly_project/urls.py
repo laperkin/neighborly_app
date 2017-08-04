@@ -27,4 +27,5 @@ urlpatterns = [
 	url(r'^dataentry/$', dataentry, name='dataentry'),
 	url(r'^currentresults/$', currentresults,name='currentresults'),
 	url(r'^admin/', admin.site.urls),
+	
 ]
