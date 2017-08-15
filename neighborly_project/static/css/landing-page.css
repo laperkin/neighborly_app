@@ -20,7 +20,7 @@ p,
 h6 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 100;
-	color : #99ffbd
+	color : #FFFFFF
 }
 h1{
     font-weight: bold;
@@ -30,7 +30,7 @@ h1{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
+    color: #FFFFFF;
     background: url(../img/skyline.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -50,7 +50,7 @@ h1{
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 5em;
     font-weight: 400;
-    color: #99ffbd;
+    color: #FFFFFF;
 }
 
 .intro-divider {
@@ -59,7 +59,7 @@ h1{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.intro-message > h3 {
+.intro-message > h2 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
